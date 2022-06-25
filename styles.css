@@ -43,6 +43,7 @@ body {
 #activites-section {
     background: #F1FAEE;
     padding-top: 15px;
+    padding-bottom: 30px;
     
 }
 
@@ -54,20 +55,18 @@ body {
 #fun-activities {
     display: flex;
     height: 350px;
-    align-items: center;
     justify-content: space-around;
-    margin: 0;
+    margin: 30px 0 0 0;
 }
 
 .col {
     max-width: 250px;
+    padding: 20px 10px;
+    border-radius: 10px;
 }
 
 .col:hover {
     background: #86CB92;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 10px;
 }
 
 .place {
