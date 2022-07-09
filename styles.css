@@ -50,12 +50,6 @@ body {
     
 }
 
-#activities-title {
-    margin-top: 0;
-    margin-bottom: 0;
-    width: 950px;
-}
-
 #activities-info {
     width: 950px;
     display: flex;
