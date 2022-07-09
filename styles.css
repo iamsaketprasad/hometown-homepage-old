@@ -1,0 +1,93 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Spinnaker', sans-serif;
+}
+
+#hero-section {
+    background-image: url("images/kolkata.jpg");
+    background-size: cover;
+    height: 400px;
+    color: #F1FAEE;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#title1 {
+    background: #1D3557;
+    padding: 6px 12px;
+    border-radius: 5px;
+    margin: 0;
+}
+
+#title2 {
+    background: #457B9D;
+    padding: 6px 12px;
+    border-radius: 5px;
+    width: 550px;
+    margin-top: 15px;
+}
+
+#activities-section {
+    background: #F1FAEE;
+    padding: 30px;
+}
+
+#activities-title {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#activities-info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.col {
+    width: 250px;
+    padding: 20px;
+}
+
+.place {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+}
+
+#guide-section {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 400px;
+    padding: 20px;
+    background: #a2d2ff;
+    box-shadow: 10px 10px black;
+}
+
+#guide-img {
+    width: 150px;
+}
+
+#guide-info {
+    width: 200px;
+}
